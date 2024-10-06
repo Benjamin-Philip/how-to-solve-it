@@ -1,0 +1,17 @@
+baseURL = 'https://benjamin-philip.github.io/how-to-solve-it/'
+languageCode = 'en-us'
+title = "How to Solve It"
+
+[Menus]
+  main = [
+  {Name = "About", URL = "/about"},
+  {Name = "Book", URL = "https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it"}
+]
+
+[params]
+  description = "My notes and thoughts on 'How to Solve It' by George Polya"
+  themeColor = "theme-base-0d"
+
+[module]
+  [[module.imports]]
+    path = 'github.com/spf13/hyde'
